@@ -1,0 +1,28 @@
+page-login {
+
+  .splash-info {
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .splash-logo {
+    margin: auto;
+    background: url('/assets/img/photo.jpg') no-repeat transparent;
+    background-size: 100%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+  .splash-intro {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 80%;
+    margin: auto;
+  }     
+
+  button {
+      min-height: 4.4rem;  
+  }   
+
+}

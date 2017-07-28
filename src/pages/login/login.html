@@ -1,0 +1,33 @@
+<!--
+  Generated template for the Login page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content>
+
+  <div class="splash-info">
+    <div class="splash-logo"></div>
+    <!--<div class="splash-intro">
+      Rider Go
+    </div>-->
+  </div> 
+  
+  <div padding>
+    <ion-list>
+      <ion-item>
+        <ion-label floating>E-mail</ion-label>
+        <ion-input type="email" [(ngModel)]="loginData.email" clearInput required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="loginData.password" clearInput required></ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button block (click)="login()" [disabled]="!loginData.email || !loginData.password">
+      Login
+    </button>
+  </div>  
+
+</ion-content>
