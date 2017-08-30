@@ -13,21 +13,30 @@
       Rider Go
     </div>-->
   </div> 
-  
-  <div padding>
-    <ion-list>
-      <ion-item>
-        <ion-label floating>E-mail</ion-label>
-        <ion-input type="email" [(ngModel)]="loginData.email" clearInput required></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label floating>Password</ion-label>
-        <ion-input type="password" [(ngModel)]="loginData.password" clearInput required></ion-input>
-      </ion-item>
-    </ion-list>
-    <button ion-button block (click)="login()" [disabled]="!loginData.email || !loginData.password">
-      Login
-    </button>
-  </div>  
+  <ion-grid fixed no-padding>
+    <ion-row align-items-stretch>  
+      <ion-col col-12 offset-md-4 col-md-4>   
+        <div class="login-panel" padding>
+          <ion-list>
+            <ion-item>
+              <ion-label floating>E-mail</ion-label>
+              <ion-input type="email" [(ngModel)]="loginData.email" clearInput required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type="password" [(ngModel)]="loginData.password" clearInput required></ion-input>
+            </ion-item>
+            <ion-item class="hide">
+            </ion-item>
+          </ion-list>
+          <div padding-top>
+            <button ion-button block (click)="login()" [disabled]="!loginData.email || !loginData.password">
+              Login
+            </button>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
 
 </ion-content>

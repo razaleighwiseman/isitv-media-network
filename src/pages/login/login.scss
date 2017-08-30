@@ -1,11 +1,19 @@
 page-login {
 
+  .content {
+    background-image: url('../assets/img/bg02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }   
+
   .splash-info {
     position: relative;
     z-index: 2;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
   }
+
   .splash-logo {
     margin: auto;
     background: url('/assets/img/photo.jpg') no-repeat transparent;
@@ -14,12 +22,18 @@ page-login {
     height: 160px;
     border-radius: 50%;
   }
+
   .splash-intro {
     font-size: 18px;
     font-weight: bold;
     max-width: 80%;
     margin: auto;
-  }     
+  }    
+  
+  .login-panel {
+    background-color: white;
+    margin: auto;
+  }
 
   button {
       min-height: 4.4rem;  
