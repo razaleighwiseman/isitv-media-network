@@ -12,29 +12,25 @@ export class HomePage {
 
     this.cards = [
       {
-        title: "Item 1",
-        content: "Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu."
+        title: "Platinum",
+        content: "Package",
+        color: "googleplus"
       },
       {
-        title: "Item 2",
-        content: "Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu."
+        title: "9",
+        content: "4 Team Distribution",
+        color: "instagram"
       },
       {
-        title: "Item 3",
-        content: "Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu."
+        title: "9",
+        content: "13 Group Distribution by My Team",
+        color: "danger"
       },
       {
-        title: "Item 4",
-        content: "Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu."
-      },
-      {
-        title: "Item 5",
-        content: "Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu."
-      },
-      {
-        title: "Item 6",
-        content: "Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu."
-      }                              
+        title: "12",
+        content: "13 Group Distribution",
+        color: "blur"
+      }                             
     ];
 
   }

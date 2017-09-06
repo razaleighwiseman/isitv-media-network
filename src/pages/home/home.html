@@ -11,35 +11,25 @@
   <ion-grid fixed no-padding>
     <ion-row align-items-stretch>
       <ion-col col-12 col-md-6 *ngFor="let card of cards">
-        <ion-card>
-          <ion-card-header>
-            {{ card.title }}
-          </ion-card-header>
+        <ion-card [color]="card.color">
           <ion-card-content>
-            <p>{{ card.content }}</p>
+            <ion-item text-wrap>
+              <h1 class="big">{{ card.title }}</h1>
+              <h1>{{ card.content }}</h1>
+            </ion-item>
           </ion-card-content>
         </ion-card>
       </ion-col>
       <ion-col col-12>
-        <ion-card>
-          <ion-card-header>
-            Big Space
-          </ion-card-header>
+        <ion-card color="twitter">
           <ion-card-content>
-            <p>Et vim suscipit apeirian incorrupte, et eruditi liberavisse qui. Augue iudicabit pri at, an mea quidam fabellas, vis id ocurreret sententiae reprimique. Cu mea illud aeterno, deleniti reprimique neglegentur ei pro. Nec ne ipsum omnium sadipscing, vis habemus assueverit et. Munere complectitur ea usu.</p>
+            <ion-item>
+              <h1 class="big">3</h1>
+              <h1>Direct Sponsor</h1>
+            </ion-item>
           </ion-card-content>
         </ion-card>        
-      </ion-col>
-      <ion-col col-12 col-md-3 *ngFor="let card of cards">
-        <ion-card>
-          <ion-card-header>
-            {{ card.title }}
-          </ion-card-header>
-          <ion-card-content>
-            <p>{{ card.content }}</p>
-          </ion-card-content>
-        </ion-card>
-      </ion-col>      
+      </ion-col>    
     </ion-row>
   </ion-grid>
 
